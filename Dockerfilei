@@ -1,6 +1,6 @@
 FROM python:3.7-slim-buster
 
-MAINTAiNER Insim "insim@insim.to"
+MAINTAINER Insim "insim@insim.to"
 
 WORKDIR /app
 COPY app.py requirements.txt
